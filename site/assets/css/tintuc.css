@@ -1,0 +1,68 @@
+.news,.ct-news{
+    background-color: #F7F6F4;
+    margin-bottom: 50px;
+}
+.news-ct{
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    padding: 20px 10px;
+
+}
+a{
+    text-decoration: none;
+}
+.text p{
+    color: black;
+}
+#title-news{
+    font-size: 30px;
+}
+#title-news:hover{
+    color: #C50515;
+}
+.image{
+    text-align: center;
+}
+.text{
+    padding: 0 40px 0 0;
+}
+#mota:hover{
+    color: #C50515;
+}
+hr{
+    color: #989898;
+}
+/* chi tiết tin tức */
+h1,h3{
+    color: black;
+}
+.ct-news{
+    padding: 50px;
+}
+.time p,.time i{
+    color: #62C6FF;
+}
+.mo-ta p{
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+.noi-dung p{
+    color: black;
+    font-size: 16px;
+    line-height: 32px;
+    pad: 10px 0;
+}
+textarea{
+    color: black;
+    margin: auto;
+    border: #E2E2E1 1px solid;
+}
+.comment input[type="submit"]{
+    background-color: #C50515;
+    border: none;
+    padding: 3px 30px;
+    border-radius: 50px;
+    margin-top: 10px;
+}

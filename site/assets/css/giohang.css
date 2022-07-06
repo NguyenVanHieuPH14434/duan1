@@ -1,0 +1,176 @@
+.cart{
+  
+    margin-top: 30px;
+    background-color: #F7F6F4;
+    padding: 20px 30px;
+}
+#main{
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.cart h2{
+    color: black;
+}
+#hoten,#Email,#sdt,#diachi,#ghichu{
+    background-color: #F7F6F4;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    width: 1200px;
+}
+label{
+    color: black;
+}
+input[type="text"]::placeholder{
+    color: #999999 !important;
+}
+input[type="text"]{
+    outline: none;
+}
+hr{
+    color: black;
+}
+.btn-cart{
+    margin-left: 750px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+#continue{
+    background-color: white;
+    color: #C50515;
+    border: #C50515 solid 1px;
+    padding: 10px 30px;
+    
+}
+#finish{
+    background-color: #C50515;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    float: right;
+}
+.text-cart h3{
+    color: #999999;
+}
+/*  */
+
+.cart{
+ 
+   left: 165px;
+   top: 120px;
+   margin: auto;
+   box-sizing: border-box;
+   display: grid;
+   grid-template-rows: 1fr 1fr;
+   padding-top: 50px;
+}
+.cart-1{
+   display: grid;
+   grid-template-columns: 250px 1fr 1fr;
+   box-sizing: border-box;
+}
+.pic-cart-1, .pic-cart-2{
+   background-color: #F1DDC9;
+   width: 144px;
+   height: 144px;
+   text-align: center;
+   
+   
+}
+.text-cart h3{
+   width: 237px;
+   height: 24px;
+   font-size: 20px;
+   line-height: 24px;
+}
+
+.text-cart h2{
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 32px;
+   font-weight: bolder;
+   padding-top: 12px;
+}
+.text-cart h4, .can{
+   font-size: 16px;
+   line-height: 24px;
+   color: #777777;
+}
+.can{
+   padding-top: 10px;
+   padding-bottom: 2px;
+}
+.pic-cart{
+   padding-top: 11px;
+}
+
+.package{
+   text-align: right;
+}
+.package i{
+   color: #C50515;
+   font-size: 24px;
+}
+#group{
+   margin-left: 370px;
+   margin-top: 40px;
+}
+.text{
+   text-align: right;
+}
+.text p{
+   color: black;
+   font-size: 24px;
+}
+.btn-ht{
+   text-align: center;
+}
+.btn-ht button{
+   background-color: #C50515;
+   padding: 20px 525px;
+   font-size: 22px;
+   border: none;
+}
+.text span{
+   color: #999999;
+   font-size: 20px;
+}
+.price p{
+color: black;
+font-size: 24px;
+margin-bottom: 30px;
+}
+.price a,.price i{
+   color: black;
+}
+label{
+   width: 313px;
+   height: 42px;  
+   box-sizing: border-box;
+}
+
+.icon-{
+   background-color: #D84727;
+   width: 30px;
+   height: 30px;
+   margin-top: 30px;
+   margin-right: 370px;
+   border: 1px solid #DA5E42;
+}
+#hrt{
+   margin: 2rem 0;
+}
+#confirm{
+   padding: 40px;
+   background-color: #F7F6F4;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   
+}
+.confirm label{
+   font-size: 20px;
+}
+.confirm h2{
+   color: black;
+   padding-bottom: 20px;
+}

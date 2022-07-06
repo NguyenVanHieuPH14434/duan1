@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+#main{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+.chi-tiet h3{
+ color: black;
+}
+.chi-tiet{
+    background-color: #F7F6F4;
+    padding: 20px 40px;
+}
+.chi-tiet h4{
+    color: #828282;
+}
+.mo-ta{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+.avt img{
+    border-radius: 100px;
+}
+.name{
+    padding: 10px;
+}
+aside span{
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.ho-so-ca-nhan .info h4{
+color: black;
+}
+.avt-ct{
+    text-align: center;
+}
+.info h4{
+    line-height: 10px;
+    font-weight: 500;
+}
+.avt-ct img{
+    border-left: 1px #828282 solid;
+    padding-left: 20px;
+}
+.avt-ct button{
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.avt-ct button:hover{
+    background-color: #C50515;
+}
+.ho-so-ca-nhan{
+    display: grid;
+    grid-template-columns: 650px 1fr;
+}
+#xdh{
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 20px;
+}
+aside i{
+    color: black;
+}
+.name p{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.name a{
+    text-decoration: none;
+    color: #828282;
+}
+hr{
+    border: 1px solid black;
+}
+#hr-ct{
+    margin-top: 0px;
+}
+.chi-tiet input[type="text"]{
+    color: black;
+    padding: 10px;
+    width: 80%;
+    background-color: #C4C4C4;
+    border: none;
+    margin-left: 90px;
+}
+::placeholder{
+    color: black;
+}
+.ctdh{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 10px;
+}
+.thongtin h4{
+    color: black;
+    font-size: 18px;
+    line-height: 5px;
+}
+.thongtin span,.thongtin p{
+    color: black;
+    font-size: 22px;
+}
+.anh{
+    margin-top: 20px;
+}
+#hrt{
+    margin-top: 3rem;
+}
+.details{
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    gap: 10px;
+}
+#details{
+    text-decoration: none;
+}
+.text-detail h5{
+    color: black;
+}
+.tt-detail{
+    text-align: right;
+    
+}
+.tt-detail span{
+    color: #828282;
+    font-size: 20px;
+}
+.tt-detail p{
+    color: black;
+    font-size: 22px;
+}
+.tt-detail{
+    margin-top: 170px;
+}

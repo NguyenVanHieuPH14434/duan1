@@ -1,0 +1,134 @@
+/* cả trang */
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+/* --------------------- */
+/* phần header và nav */
+header{
+    background-color: #C50515;
+    height: 80px;
+    line-height: 80px;
+}
+#header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#search{
+    background-color: #C50515;
+    border: none;
+}
+::placeholder{
+    color: white !important;
+}
+#icon-search{
+    font-size: 28px;
+    margin-right: 24px;
+}
+#input{
+    margin-top: 20px;
+}
+#search{
+    outline: none;
+}
+.fas{
+    margin-top: 5px;
+    margin-right: 10px;
+
+}
+#btn-cart{
+    border-radius: 100px;
+    border-color: #C50515;
+    height: 40px;
+    width: 40px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+#dn{
+    border-left: 1px solid white;
+}
+.col a{
+    color: white;
+    text-decoration: none;
+    padding: 0 5px;
+}
+#col3{
+    text-align: right;
+    
+}
+#col3 a:hover{
+    color: #cfcfd0;
+}
+nav ul li{
+    padding: 0 50px;
+}
+nav ul li a{
+    font-size: 20px;
+}
+nav ul li a img{
+    margin-right: 12px;
+    margin-bottom: 5px;
+}
+nav ul li:hover a{
+    color: black;
+}
+/* ------------------------------ */
+
+#carousel{
+    margin-top: 10px;
+}
+/* footer */
+footer{
+    background-color: #C50515;
+    padding-top: 10px;
+}
+h5{
+    font-weight: lighter;
+    line-height: 40px;
+    margin-top: 10px;
+}
+h4{
+    margin-top: 25px;
+    padding-bottom: 10px;
+}
+#col5{
+    padding-left: 140px;
+}
+#col6{
+    text-align: right;
+}
+/*- ------------------- -*/
+/* phần chính của trang */
+content{
+    margin-top: 30px;
+}
+.title h3,.title h2{
+    color: black;
+}
+.sp{
+    text-align: center;
+    border-bottom: 1px solid #A4A4A4;
+    padding-bottom: 15px;
+    margin-top: 20px;
+}
+.title{
+    margin-top: 20px;
+}
+.sanpham{
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    padding: 20px 0 0 0;
+}
+.sanpham h4{
+    color: black;
+}
+.sanpham h5{
+    color: red;
+}
+.container{
+    width: 85%;
+}
+/* ------------------------------- */

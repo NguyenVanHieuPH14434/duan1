@@ -1,0 +1,54 @@
+.card{
+    margin-top: 30px;
+    padding: 20px;
+    
+}
+.product-title{
+    color: black;
+}
+.mo_ta p{
+    color: black;
+   
+}
+.price, .price span{
+    color: black;
+}
+.add-to-cart{
+    background-color: #C50515;
+}
+.tab-pane{
+    text-align: center;
+}
+textarea{
+    color: black;
+    margin: auto;
+    border: #E2E2E1 1px solid;
+}
+.comment{
+    margin-top: 50px;
+}
+.comment input[type="submit"]{
+    background-color: #C50515;
+    border: none;
+    padding: 3px 30px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.comment h3{
+    color: black;
+}
+.splq h3{
+    color: black;
+}
+.splq{
+    margin-top: 50px;
+}
+.sanpham{
+    text-align: center;
+}
+.product-details h1{
+    color: black;
+}
+.product-details p{
+    color: black;
+}
